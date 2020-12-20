@@ -27,8 +27,7 @@ body {
     background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0.65) 5%, rgba(0, 0, 0, 0.65) 95%, rgba(0, 0, 0, 0.0) 100%);
     background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.65) 5%, rgba(0, 0, 0, 0.65) 95%, rgba(0, 0, 0, 0.0) 100%);
     background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0) 0%, rgba(0, 0, 0, 0.65) 5%, rgba(0, 0, 0, 0.65) 95%, rgba(0, 0, 0, 0.0) 100%);
-    width: 65%;
-    padding: 25px 75px 10px 75px;
+    width: 75%;
     /* background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 5%, rgba(255, 255, 255, 0.8) 95%, rgba(0, 0, 0, 0.0) 100%);
     background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255, 0.8) 5%, rgba(255, 255, 255, 0.8) 95%, rgba(0, 0, 0, 0.0) 100%);
     background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 5%, rgba(255, 255, 255, 0.8) 95%, rgba(0, 0, 0, 0.0) 100%);
@@ -41,24 +40,27 @@ header {
 }
 
 .siteTitle {
-    font-size: 100px;
-    margin: 20px 0px 20px 0px;
+    font-size: 80px;
+    margin: 40px 0px 0px 0px;
 }
 
 .siteDescription {
     font-size: 25px;
     font-style: italic;
+    margin: 25px 0px 0px 0px;
 }
 
 .contactInfo {
     display: flex;
-    flex-direction: column;
-    text-align: left;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .contact {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 10px 25px;
+    font-size: 1.75em;
+    text-decoration: none;
+    font-style: normal;
 }
 
 hr {
@@ -66,30 +68,30 @@ hr {
     height: 2px;
     margin: 0;
     padding: 0;
-    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.0));
-    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.0));
-    background-image: -ms-linear-gradient(left,rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.0));
-    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.0)); 
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.0));
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.0));
+    background-image: -ms-linear-gradient(left,rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.0));
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.0)); 
 }
 
 nav {
-    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 5%, rgba(255, 255, 255, 0.2) 95%, rgba(0, 0, 0, 0.0) 100%);
-    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255, 0.2) 5%, rgba(255, 255, 255, 0.2) 95%, rgba(0, 0, 0, 0.0) 100%);
-    background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 5%, rgba(255, 255, 255, 0.2) 95%, rgba(0, 0, 0, 0.0) 100%);
-    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 5%, rgba(255, 255, 255, 0.2) 95%, rgba(0, 0, 0, 0.0) 100%);
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.2) 5%, rgba(255, 255, 255, 0.2) 95%, rgba(0, 0, 0, 0.0) 100%);
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0.0) 0%, rgb(255, 255, 255, 0.2) 5%, rgba(255, 255, 255, 0.2) 95%, rgba(0, 0, 0, 0.0) 100%);
+    background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.2) 5%, rgba(255, 255, 255, 0.2) 95%, rgba(0, 0, 0, 0.0) 100%);
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.2) 5%, rgba(255, 255, 255, 0.2) 95%, rgba(0, 0, 0, 0.0) 100%);
 }
 
 ul {
     list-style: none;
-    padding: 10px;
+    padding: 10px 0px;
     margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .pageTab {
-    font-size: 1.25em;
+    font-size: 1.75em;
     font-weight: bold;
     margin: 0;
     padding: 0;
@@ -103,6 +105,14 @@ a {
 h1 {
     text-align: center;
     font-size: 2.5em;
+    margin-top: 50px;
+}
+
+h2 {
+    margin: 25px 0px 0px 75px;
+    font-weight: bold;
+    font-size: 2em;
+    font-style: italic;
 }
 
 .tkBadges {
@@ -127,13 +137,18 @@ h1 {
     border-radius: 50%;
 }
 
-/* .window {
-    width: 100%;
-    height: 75vh;   
-} */
+p {
+    font-size: 1.5em;
+    margin: 20px 75px;
+}
 
 footer {
     text-align: center;
     padding: 25px;
     bottom: 0;    
+    font-size: .75em;
+}
+
+.footerText {
+    margin: 0;
 }
