@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40836249-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-40836249-1');
+    </script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <title>Melissa Rose Dance - Lessons in San Francisco</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="centerPanel">
+            <header>
+                <h1 class="siteTitle">Melissa Rose Dance</h1>
+                <h1 class="siteDescription">Wedding and Social Dancing Lessons in San Francisco, CA<br>Online lessons available</h2>
+                    <div class="contactInfo">
+                        <h2 class="contact"><a class="phone" href="tel:415-735-4242">(415)735-4242</a></h2>
+                        <h2 class="contact">TangoRose@live.com</h2>
+                    </div>
+                    <hr>
+                    <nav>
+                        <ul class="navBar">
+                            <a href="index.html">
+                                <li class="pageTab">Home</li>
+                            </a>
+                            <a href="weddings.html">
+                                <li class="pageTab">Weddings</li>
+                            </a>
+                            <a href="lessons.html">
+                                <li class="pageTab">Lessons</li>
+                            </a>
+                            <a href="rates.html">
+                                <li class="pageTab">Rates</li>
+                            </a>
+                            <a href="faqs.html">
+                                <li class="pageTab">FAQs</li>
+                            </a>
+                            <a href="gallery.html">
+                                <li class="pageTab">Gallery</li>
+                            </a>
+                        </ul>
+                    </nav>
+                    <hr>
+            </header>
+            <main>
+                <h1>Voted "Best of Weddings" 2019, 2020 & 2021 on TheKnot.com</h1>
+                <div class="tkBadges">
+                    <img class="badge" src="images/bow-badges/bow-badge-2019-500px.png" alt="Best of Weddings 2019">
+                    <img class="badge" src="images/bow-badges/bow-badge-2020-500px.png" alt="Best of Weddings 2020">
+                    <img class="badge" src="images/bow-badges/bow-badge-2021-500px.png" alt="Best of Weddings 2021">
+                </div>
+                <h1>About Melissa</h1>
+                <div class="pic"><img class="profilePhoto" src="images/profile-photo.jpg" alt="Melissa - Profile Photo"></div>
+                <p>Melissa Rose is an independent dance instructor in San Francisco. She teaches singles, couples and groups for weddings, social dances, parties and events.</p>
+                <p>Since 2009, Melissa has taught several styles of social Latin, ballroom and country dances, but her own dance journey began with one of the most difficult: Argentine Tango.</p>
+                <p>Despite its absence of standardized patterns and choreography, Argentine Tango is perhaps the most intricate of social dances. Heavily improvised, it places the highest importance on the connection between leader and follower through the embrace. This dynamic allows both partners to quickly learn new steps, and to move together as naturally and easily as possible, and Melissa holds this same emphasis on connection throughout her lessons in all dance styles.</p>
+            </main>
+            <hr>
+            <footer>
+                <a target="_blank" href="https://www.theknot.com/marketplace/redirect-1042927?utm_source=vendor_website&utm_medium=banner&utm_term=8fb9665e-6808-4259-95be-a75500bdff37&utm_campaign=vendor_badge_assets"><img alt="As Seen on The Knot" border="0" src="https://www.xoedge.com/myaccount/2019/website-share/VendorBadge_AsSeenOnWeb.png" width="100"></a>
+                <p class="footerText">Melissa Rose Dance is on TheKnot.com - check out her reviews!</p>
+            </footer>
+        </div> <!-- center panel closing tag -->
+    </div>
+    <!--container closing tag-->
+</body>
+
+</html>
