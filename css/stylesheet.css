@@ -40,7 +40,7 @@ header {
 }
 
 .siteTitle {
-    font-size: 80px;
+    font-size: 70px;
     margin: 40px 0px 0px 0px;
 }
 
@@ -104,8 +104,8 @@ a {
 
 h1 {
     text-align: center;
-    font-size: 2.5em;
-    margin-top: 50px;
+    font-size: 2.25em;
+    margin-top: 40px;
 }
 
 h2 {
@@ -122,8 +122,8 @@ h2 {
 }
 
 .badge {
-    height: 200px;
-    width: 200px;
+    height: 120px;
+    width: 120px;
     margin: 10px;
 }
 
@@ -132,8 +132,8 @@ h2 {
 }
 
 .profilePhoto {
-    height: 125px;
-    width: 125px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
